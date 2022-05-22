@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  background-color: aqua;
+}
+.player {
+  width: 40%;
+  text-align: center;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.currentScore {
+  border: 1px solid black;
+  padding: 2rem;
+  font-size: 3rem;
+}
+.control {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.img1 {
+  border: 1px solid red;
+  height: 10rem;
+  width: 10rem;
+  background-size: cover;
+}
+
+.dice1 {
+  background-image: url("../public/assets/images/dice-1.png ");
+}
+.dice2 {
+  background-image: url("../public/assets/images/dice-2.png ");
+}
+.dice3 {
+  background-image: url("../public/assets/images/dice-3.png ");
+}
+.dice4 {
+  background-image: url("../public/assets/images/dice-4.png ");
+}
+.dice5 {
+  background-image: url("../public/assets/images/dice-5.png ");
+}
+.dice6 {
+  background-image: url("../public/assets/images/dice-6.png ");
+}
